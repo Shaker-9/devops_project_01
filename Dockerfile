@@ -2,7 +2,7 @@ FROM redhat/ubi8
 
 RUN yum install python3 -y
 
-RUN pip333 install flask
+RUN pip3 install flask
 
 COPY devops.py /devops.py
 
